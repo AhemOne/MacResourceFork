@@ -19,16 +19,7 @@
  * )
  * 
  * */
-/*
-if ( typeof MacQuirks === 'undefined' ) 
-  throw new Error('Please provide an implementation of MacQuirks. "MacResource.js" relies on "MacQuirks.js" which can be found in this project\'s repository');
-if ( typeof BytesWithIo === 'undefined' ) 
-  throw new Error('Please provide an implementation of BytesWithIO. "MacResource.js" relies on "BytesWithIo.js" which can be found at https://formats.kaitai.io/bytes_with_io/javascript.html');
-if ( typeof KaitaiStream === 'undefined' ) 
-  throw new Error('Please provide an implementation of KaitaiStream. "MacResource.js" relies on "KaitaiStream.js" which can be found at https://github.com/kaitai-io/kaitai_struct_javascript_runtime');
-if ( typeof ResourceFork === 'undefined' ) 
-  throw new Error('Please provide an implementation of ResourceFork. "MacResource.js" relies on "ResourceFork.js" which can be found at https://formats.kaitai.io/resource_fork/javascript.html');
-*/
+
 class MacResourceFork {
   static #TMPLPromise = new Promise((resolve, reject) => {
     const MacTemplateJsonFilename = 'forkTmpl.json';
