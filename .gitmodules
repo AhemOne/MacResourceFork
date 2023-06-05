@@ -1,0 +1,6 @@
+[submodule "external/formats-kaitai-io.github.io"]
+	path = external/formats-kaitai-io.github.io
+	url = https://github.com/kaitai-io/formats-kaitai-io.github.io.git
+[submodule "external/kaitai_struct_javascript_runtime"]
+	path = external/kaitai_struct_javascript_runtime
+	url = https://github.com/kaitai-io/kaitai_struct_javascript_runtime.git
