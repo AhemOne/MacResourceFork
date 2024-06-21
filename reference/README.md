@@ -9,3 +9,5 @@
 ## Resources, resource templates:
 - Inside Macintosh - More Macintosh Toolbox, copyright Apple Computer, Inc. 1993
 - ResEdit Reference, copyright Apple Computer, Inc. 1995
+## General programming
+- A Fragment Of Your Imagination, Joe Zobkiw, 1995
