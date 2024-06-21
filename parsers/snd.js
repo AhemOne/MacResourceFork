@@ -1,5 +1,5 @@
 /**
- * Example class
+ * By Jesse Falzon, 2024
 **/
 class snd extends ResourceScanner {
   constructor(data, type = "raw") {
