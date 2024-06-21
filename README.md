@@ -1,6 +1,7 @@
 # MacResourceFork
 A JavaScript class which interprets a Macintosh Classic MacOS resource fork into a useful object.
 
+`MacResource` will parse the resource fork passed to it according to any `TMPL` resources which are supplied by `forkTmpl.json` or inside the fork, however each new `TMPL` definition will be added to the current set of `TMPL`s, however repeat `TMPL`s will only apply to the fork currently being processed. This aims to prevent the corruption of the original `TMPL` by non-standard definitions.
 
 ## Usage
 To use, you must download and include:
@@ -21,6 +22,7 @@ const fork = new MacResource(data)
 
 `fork` can then be explored as a javascript object.
 
+---
 
 `MacQuirks.js` is useful for mac to ascii encoding, it just replaces the mac extended encoding with the closest ascii match I could think of.
 
