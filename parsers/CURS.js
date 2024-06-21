@@ -1,5 +1,5 @@
 /**
- * Example class
+ * By Jesse Falzon, 2024
 **/
 //type 'CURS' {
 //		hex string [32];										/* Data 				*/
