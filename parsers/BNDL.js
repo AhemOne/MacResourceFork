@@ -11,6 +11,8 @@
 //				};
 //		};
 //};
+//
+// By Jesse Falzon, 2024
 
 class BNDL {
   constructor(data, type = 'raw') {
