@@ -1,4 +1,4 @@
-
+// By Jesse Falzon, 2024
 class MENU extends ResourceScanner {
   constructor(data, type = 'raw') {
     // type = raw
