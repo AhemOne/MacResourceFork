@@ -12,6 +12,8 @@ and from this repository:
 - `MacQuirks.js`
 - `MacResource.js`
 
+`MacResource` will load `forkTmpl.json` automatically.
+
 Then load you `data` as an `ArrayBuffer` and use:
 ```
 const fork = new MacResource(data)
