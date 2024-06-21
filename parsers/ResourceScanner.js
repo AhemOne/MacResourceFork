@@ -1,4 +1,4 @@
-
+// By Jesse Falzon, 2024
 class ResourceScanner {
   #index = 0;
   #data = [];
