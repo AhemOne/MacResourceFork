@@ -2,7 +2,7 @@
 A JavaScript class which interprets a Macintosh Classic MacOS resource fork into a useful object.
 
 
-##usage
+## Usage
 To use, you must download and include:
 - [KaitaiStream](https://github.com/kaitai-io/kaitai_struct_javascript_runtime)
 - [BytesWithIO](https://formats.kaitai.io/bytes_with_io/javascript.html)
@@ -23,4 +23,5 @@ const fork = new MacResource(data)
 
 
 `MacQuirks.js` is useful for mac to ascii encoding, it just replaces the mac extended encoding with the closest ascii match I could think of.
+
 `forkTmpl.json` contains a JSON object of the implied TMPL resource found in a resource fork (builtin to ResEdit, etc).
